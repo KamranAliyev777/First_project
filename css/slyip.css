@@ -1,0 +1,830 @@
+@font-face {
+    font-family: 'Heebo-Thin';
+    src: url('fonts/hoobe/Heebo-Thin.eot');
+    src: url('fonts/hoobe/Heebo-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-Thin.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-Thin.woff') format('woff'),
+        url('fonts/hoobe/Heebo-Thin.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-Thin.svg#Heebo-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo-Black';
+    src: url('fonts/hoobe/Heebo-Black.eot');
+    src: url('fonts/hoobe/Heebo-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-Black.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-Black.woff') format('woff'),
+        url('fonts/hoobe/Heebo-Black.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-Black.svg#Heebo-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo-ExtraBold';
+    src: url('fonts/hoobe/Heebo-ExtraBold.eot');
+    src: url('fonts/hoobe/Heebo-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-ExtraBold.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-ExtraBold.woff') format('woff'),
+        url('fonts/hoobe/Heebo-ExtraBold.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-ExtraBold.svg#Heebo-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo-Light';
+    src: url('fonts/hoobe/Heebo-Light.eot');
+    src: url('fonts/hoobe/Heebo-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-Light.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-Light.woff') format('woff'),
+        url('fonts/hoobe/Heebo-Light.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-Light.svg#Heebo-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo-Medium';
+    src: url('fonts/hoobe/Heebo-Medium.eot');
+    src: url('fonts/hoobe/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-Medium.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-Medium.woff') format('woff'),
+        url('fonts/hoobe/Heebo-Medium.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-Medium.svg#Heebo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo-Regular';
+    src: url('fonts/hoobe/Heebo-Regular.eot');
+    src: url('fonts/hoobe/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-Regular.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-Regular.woff') format('woff'),
+        url('fonts/hoobe/Heebo-Regular.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-Regular.svg#Heebo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo-Bold';
+    src: url('fonts/hoobe/Heebo-Bold.eot');
+    src: url('fonts/hoobe/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/Heebo-Bold.woff2') format('woff2'),
+        url('fonts/hoobe/Heebo-Bold.woff') format('woff'),
+        url('fonts/hoobe/Heebo-Bold.ttf') format('truetype'),
+        url('fonts/hoobe/Heebo-Bold.svg#Heebo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Serif-Italic';
+    src: url('fonts/hoobe/PTSerif-Italic.eot');
+    src: url('fonts/hoobe/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hoobe/PTSerif-Italic.woff2') format('woff2'),
+        url('fonts/hoobe/PTSerif-Italic.woff') format('woff'),
+        url('fonts/hoobe/PTSerif-Italic.ttf') format('truetype'),
+        url('fonts/hoobe/PTSerif-Italic.svg#PTSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.center{
+    width: 1140px;
+}
+.header{
+    height: 760px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	padding-top:38px;
+}
+.header_top_in{
+    position: sticky;
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    height: 80px;
+}
+.header_top_in > a:nth-child(1){
+    font-family: 'Heebo-Light';
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: 35px;
+    margin-left: 25px;
+}
+.ul_2{
+    width: 471px;
+    margin-left: 432px;
+}
+.ul_2 li{
+    display: flex;
+    justify-content: space-between;
+}
+.ul_2 li:not(:last-child){
+    margin-right:36px ;
+}
+.ul_2 a{
+    font-family: 'Heebo-Regular';
+    font-size: 14px;
+    color: #000000;
+}
+.ul_2 a:hover{
+    color: #ED093E;
+}
+.talk{
+    position: absolute;
+    top: 53px;
+    right: 20px;
+    background-color: #ED093E;
+    width: 80px;
+    height: 80px;
+    padding-top: 13px;
+}
+.talk:hover{
+    background-color: rgb(163, 26, 58);
+}
+.talk a{
+    display: block;
+    text-align: center;
+    font-family: 'Heebo-Light';
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing:0.1px;  
+}
+.middle{
+    position: absolute;
+    left: 183px;
+    top: 380px;
+    width: 774px;                                                                                                                                                               
+}
+.middle p{
+    display: block;
+    text-align: center;
+}
+.middle p:nth-of-type(1){
+    font-family: 'Heebo-Light';
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    line-height: 35px; 
+}
+.middle h2{
+    font-family: 'Heebo-Thin';
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    line-height: 147px;
+    margin-top: -24px;
+    margin-bottom: -21px;
+}
+.middle p:nth-of-type(2){
+    font-family: 'Heebo-Light';
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    line-height: 35px; 
+}
+.section_one{
+    height: 688px;
+}
+.section_one_in{
+    margin:101px 0;
+    position: relative;
+}
+.section_one_in p {
+    position: absolute;
+}
+.one_line{
+    position: absolute;
+    left: 53px;
+    top: 272px;
+    width: 100px;
+    border: 2px solid #ED093E;
+}
+.section_one_in h2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Heebo-Thin';
+    font-size: 70px;
+    color: #000000;
+    width: 603px;
+    line-height: 76px;
+}
+.section_one_in p:nth-of-type(1){
+    left: 67px;
+    top: 197px;
+    font-family: 'Heebo-Italic';
+    font-size: 22px;
+    color: #727272;
+    width: 460px;
+    line-height: 24px;
+}
+.section_one_in p:nth-of-type(2){
+    left: 96px;
+    top: 287px;
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color: #000000;
+    width: 415px;
+    line-height: 24px;
+}
+.section_one_img{
+    width: 458px;
+    height: 380px;
+    position: absolute;
+    border: 1px solid #95989A;
+    background-color: #FFFFFF;
+}
+.section_one_img a{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.image_2{
+    right: 108px;
+    top:107px;
+    z-index: -10000;
+}
+.image_1{
+    right: 0;
+    top:0;
+}
+.section_two{
+    height: 249px;
+    background-color: #ED093E;
+}
+.section_two_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.section_two_in p{
+    font-family: 'Heebo-Italic';
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+.section_two_name{
+    width: 460px;
+    height: 60px; 
+    background-color: #F85B80;
+    padding-left: 16px;
+    border: 1px solid #707070;
+    margin-right: 22px;
+}
+.section_two_name::placeholder{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.two_middle a{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#FFFFFF;
+    letter-spacing: 1px;
+    padding: 16px 88px;
+    background-color: #EE2655;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+}
+.section_three{
+    height: 616px;
+    background-color: #F7F7F7;
+    z-index: 1;
+}
+.section_three_in{
+    padding-top: 80px;
+}
+.section_three_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three_left:not(:last-child){
+    margin-right: 30px;
+}
+.three_line{
+    width: 50px;
+    border: 2px solid #EF2756;
+}
+.section_three_top h2{
+    font-family: 'Heebo-Thin';
+    font-size: 69px;
+    line-height: 75px;
+    margin-top: 28px;
+    margin-bottom: 9px;
+    color:#000000;   
+}
+.section_three_top p{
+    font-family: 'Heebo-Italic';
+    font-size: 22px;
+    color:#727272; 
+}
+.section_three_bottom{
+    display: flex;
+    margin-top: 72px;
+}
+.three_left h2{
+    font-family: 'Heebo-Light';
+    font-size: 32px;
+    color:#000000; 
+    margin-bottom: 21px; 
+}
+.three_left p{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#000000; 
+    width: 341.83px;
+    height: 117px; 
+    line-height: 21px;
+    margin-left: 18px;
+    margin-top: 44px;
+}
+.section_four{
+    height: 1726px;
+    margin-top: -191px;
+    margin-bottom: 101px;
+}
+.section_four_in{
+    display: flex;
+    flex-direction: column;
+}
+.section_four_bg{
+    height: 689px;
+    background-color: #000000;
+}
+.section_four_top{
+    background-color: #FFFFFF;
+    margin-top: -176px;
+    height: 450px;
+}
+.section_four_top_image{
+    position: relative;
+    height: 420px;
+    margin:15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section_four_top_right{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 554px;
+    height: 420px;
+    right: 0;
+    background-color: rgba(255, 255, 255, .84);
+}
+.section_four_top_right h2{
+    font-family: 'Heebo-Thin';
+    font-size: 70px;
+    color:#000000;
+    margin-bottom: 6px;
+    margin-top: 27px;   
+}
+.section_four_top_right h3{
+    font-family: 'PT Serif-Italic';
+    font-size: 22px;
+    color:#727272;
+    margin-bottom: 27px;   
+}
+.section_four_top_right_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 34px;
+    width: 443px;
+}
+.section_four_top_right_bottom p{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#000000; 
+    text-align: center;
+    margin-bottom: 34px;  
+}
+.section_four_top_right_bottom a{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#ED093E;   
+}
+.section_four_top_right_bottom a i{
+    font-size: 12px;  
+}
+.section_four_middle{
+    height: 611px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_four_middle_img{
+    height: 320px;
+    width: 555px;
+}
+.section_four_middle_image{
+    position: relative;
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.section_four_middle_image a{
+    position: absolute;
+    color: #FFFFFF;
+    padding: 24px 103px;
+    background-color: rgba(237, 9, 62, .84);
+    font-family: 'PT Serif-Italic';
+    font-size: 16px;
+    left:106px;
+    bottom: 0;
+}
+.section_four_middle_left ,
+.section_four_middle_right{
+    display: flex;
+    flex-direction: column;
+}
+.section_four_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 554px;
+    height: 420px;
+    margin-top: 14px;
+}
+.section_four_bottom h2{
+    font-family: 'Heebo-Thin';
+    font-size: 46px;
+    color:#000000;
+    margin-bottom: 6px;  
+}
+.section_four_bottom h3{
+    font-family: 'PT Serif-Italic';
+    font-size: 22px;
+    color:#727272;
+    margin-bottom: 27px;   
+}
+.section_four_bottom p{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#000000; 
+    text-align: center;
+    margin-top: 34px;
+    width: 508px; 
+}
+.section_four_in > a{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color:#EE2655;
+    padding: 18px 60px;
+    border: 2px solid #EE2655;
+    border-radius: 2px;
+    width: fit-content;
+    margin-top: 84px;
+    margin-left: 415px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_five{
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.section_five::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content:"";
+    background-color:rgba(163, 26, 58, .4);
+}
+.section_five_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10000;
+}
+.section_five_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 69px;
+    margin-bottom: 71px;
+}
+.section_five_top h2{
+    font-family: 'Heebo-Thin';
+    font-size: 70px;
+    color:#FFFFFF;  
+    line-height: 76px;
+    margin-top:30px;
+    margin-bottom: 2px;  
+}
+.section_five_top p{
+    font-family: 'Heebo-Italic';
+    font-size: 22px;
+    color:#FFFFFF;    
+}
+.section_five_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 714px;
+}
+.section_five_bottom h2{
+     font-family: 'Heebo-Italic';
+    font-size: 46px;
+    color:#FFE200;
+}
+.section_five_bottom p{
+    font-family: 'Heebo-Regular';
+   font-size: 16px;
+   line-height: 24px;
+   color:#FFFFFF;
+   text-align: center;
+   margin: 12px 0;
+}
+.section_five_bottom h3{
+    font-family: 'Heebo-Regular';
+   font-size: 20px;
+   color:#FFFFFF;
+}
+.five_line{
+    position: absolute;
+    width:50px;
+    border: 2px solid #FFFFFF;
+}
+
+.section_five_in i{
+   border:solid #FFFFFF;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+   padding:3px;
+   width: 40px;
+    height: 40px;
+}
+.right_arrow{
+    position: absolute;
+    left: 0;
+    bottom: 32px;
+    transform: rotate(135deg);
+}
+.left_arrow{
+    position: absolute;
+    right: 0;
+    bottom: 32px;
+    transform: rotate(-45deg);
+}
+.section_sixth{
+    height:897px;
+    margin-top: 70px;
+}
+.sixth_line{
+    width:50px;
+    border: 2px solid #EF2756;
+}
+.section_sixth_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_sixth_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_sixth_top h2{
+    font-family: 'Heebo-Thin';
+    font-size: 70px;
+    color: #000000;
+    margin-top: 29px;
+    margin-bottom: 2px;
+}
+.section_sixth_top p{
+    font-family: 'PT Serif-Italic';
+    font-size: 22px;
+    color: #727272;
+    
+}
+.section_sixth_middle{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 66px 0;
+}
+.sixth_image{
+    width: 360px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 15px;
+}
+.section_sixth_left{
+    display: flex;
+    flex-direction: column;
+}
+.section_sixth_left:not(:last-child){
+    margin-right: 27px;
+}
+.section_sixth_left h2{
+    font-family: 'Heebo-Light';
+    font-size: 28px;
+    color: #000000;
+    line-height: 32px;
+    margin:11px 0;
+}
+.section_sixth_left p:nth-of-type(1){
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+}
+.section_sixth_left p:nth-of-type(2){
+    font-size: 16px;
+    color: #ED093E;
+    margin-left: 272px;
+}
+.section_sixth_left i{
+    font-size: 12px;
+}
+.section_sixth_in > a{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color: #EE2655;
+    letter-spacing: 1px;
+    padding: 18px 39px;
+    border: 2px solid #EE2655;
+    width: fit-content;
+}
+.section_seventh{
+    height: 627px;
+    margin-top: 101px;
+    background-color: #EE2655;
+}
+.sevent_line{
+    width: 50px;
+    border: 2px solid #FFFFFF;
+    margin-top: 16px;
+}
+.section_seventh_in{
+    display: flex;
+}
+.section_seventh_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 105px;
+    max-width: 507px;
+    margin-right: 174px;
+}
+.section_seventh_left h2{
+    font-family: 'Heebo-Thin';
+    font-size: 70px;
+    color: #FFFFFF;
+    line-height: 76px;
+}
+.section_seventh_left p{
+    font-family: 'PT Serif-Italic';
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-top: 67px;
+    margin-bottom: 70px;
+}
+.section_seventh_left a{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color: #EE2655;
+    letter-spacing: 1px;
+    padding: 18px 78px;
+    background-color: #FFFFFF;
+}
+.section_seventh_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 209px;
+}
+.section_seventh_right h2{
+    font-family: 'Heebo-Light';
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 76px;
+    margin-top: 49px;
+}
+.seventh_icon{
+    display: flex;
+}
+.seventh_icon li{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    color:#FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.seventh_icon li:not(:last-child){
+    margin-right: 21px;
+}
+.seventh_icon li i{
+    display: block;
+    width: 16px;
+    height: 32px;
+    margin-left: 19px;
+    margin-top:10px;
+    line-height: 32px;
+}
+.seventh_addres{
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+}
+.seventh_addres li{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.seventh_addres li i{
+    font-size: 16px;
+    line-height: 21px;
+    margin-right: 9px;
+}
+.footer{
+    height: 95px;
+    background-color: #D51945;
+}
+.footer_in{
+    display: flex;
+    justify-content: space-between;
+   align-items:center;
+   height: 95px;
+}
+.footer_left{
+    display: flex;
+    align-items: center;
+}
+.footer_left > a{
+    font-family: 'Heebo-Light';
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px; 
+    letter-spacing: 2px; 
+}
+.footer_left p{
+    font-family: 'Heebo-Regular';
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 28px;  
+    margin-left: 15px;
+}
+.footer_ul{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    height: 24px;
+}
+.footer_ul li:not(:last-child){
+    padding-right:40px;
+}
+.footer_ul li a{
+    font-family: 'Heebo-Regular';
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;  
+}
+
+/*font-family: 'PT Serif-Italic';*/
